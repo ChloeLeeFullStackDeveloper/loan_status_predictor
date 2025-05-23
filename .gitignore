@@ -1,0 +1,28 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.env
+.venv/
+*.env
+env/
+venv/
+test-env/
+
+# OS-specific
+.DS_Store
+
+# Data files (real dataset)
+data/lending_club_full.csv
+
+# VSCode settings
+.vscode/
+
+# Logs and temporary
+*.log
+*.tmp
+*.bak
