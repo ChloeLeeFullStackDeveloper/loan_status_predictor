@@ -1,28 +1,13 @@
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# CSV dataset
+/data/lending_club_full.csv
 
-# Python bytecode
+# Model files
+/models/*.pkl
+
+# Python cache
 __pycache__/
-*.py[cod]
+*.pyc
 
-# Virtual environments
+# Environment files
 .env
 .venv/
-*.env
-env/
-venv/
-test-env/
-
-# OS-specific
-.DS_Store
-
-# Data files (real dataset)
-data/lending_club_full.csv
-
-# VSCode settings
-.vscode/
-
-# Logs and temporary
-*.log
-*.tmp
-*.bak
